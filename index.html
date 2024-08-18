@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    
+    <!-- **font Awesome** -->
+    <link rel="stylesheet" href="./css/all.min.css">
+    <!-- **font Awesome end** -->
+
+    <!-- **slick slider css start** -->
+    <link rel="stylesheet" href="./css/slick.css">
+    <!-- **slick slider css start** -->
+
+    <!-- **bootstarap css start** -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- **bootstarp css end** -->
+
+    <!-- **bootstrap icon** -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- **bootstrap icon end** -->
+    
+    <!-- **main css** -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- **main css end** -->
+
+    <!-- **Responsive css start** -->
+    <link rel="stylesheet" href="./css/responsive.css">
+    <!-- **Responsive css end** -->
+</head>
+<body>
+  <!-- Navbar start -->
+  <header>
+    <!-- Desktop Navber start -->
+    <nav class="navbar navbar-expand-lg d-none d-lg-block">
+        <div class="container">
+            <!-- Logo start -->
+          <a class="navbar-brand" href="#">
+            <img src="./images/aytor2.png" height="64px" alt="">
+          </a>                            
+          <!-- Logo end -->
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="Desktopmenu">
+
+            <!-- Desktop Menu start -->
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Shop
+                  <span class="dropdownarrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                  <!-- dropdown menu start  -->
+                  <div class="submenu">
+                    <ul>
+                      <li><a href="https://s0ur88.github.io/PR-01/">Shop-Grid</a></li>
+                      <li><a href="https://s0ur88.github.io/PR-02/">Shop-Details</a></li>
+                      
+                    </ul>
+                     </div>
+                     <!-- dropdown menu end  -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Pages
+                  <span class="dropdownarrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                  <!-- dropdown menu start  -->
+                  <div class="submenu">
+                    <ul>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">page 2</a></li>
+                      <li><a href="#">page 3</a></li>
+                      
+                    </ul>
+                     </div>
+                     <!-- dropdown menu end  -->
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Features
+                  <span class="dropdownarrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                 <!-- dropdown menu start  -->
+                 <div class="submenu">
+                <ul>
+                  <li><a href="#">Feature 1</a></li>
+                  <li><a href="#">Feature 2</a></li>
+                  <li><a href="#">Feature 3</a></li>
+                  <li><a href="#">Feature 4</a></li>
+                </ul>
+                 </div>
+                 <!-- dropdown menu end  -->
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Blogs
+                  <span class="dropdownarrow"><i class="fa-solid fa-angle-down"></i></span></a>
+                  <!-- dropdown menu start  -->
+                  <div class="submenu">
+                    <ul>
+                      <li><a href="#">Blog 1</a></li>
+                      <li><a href="#">Blog 2</a></li>
+                      <li><a href="#">Blog 3</a></li>
+                      
+                    </ul>
+                     </div>
+                     <!-- dropdown menu end  -->
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Contact</a>
+              </li>
+            </ul>                                
+            <!-- Desktop Menu end -->
+          </div>
+          
+          <!-- links start -->
+          <div class="links">
+          <ul class="d-flex">
+            <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
+            <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
+            <li>
+              <a href="#">
+                <i class="bi bi-handbag"></i>
+                <span class="cardcounter">0</span>
+              </a>
+            </li>
+          </ul>
+          </div>
+          <!-- links end -->
+
+        </div>
+      </nav>
+     <!-- Desktop Navber end -->
+
+     <!-- responsive navber start -->
+     <nav class="smallnav d-block d-lg-none">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-2">
+            <button data-bs-toggle="offcanvas" data-bs-target="#offcanvusMenu" class="menubuttontoggler"><i class="fa-solid fa-bars"></i></button>
+          </div>
+          <div class="col-7 text-center">
+            <a href="#"><img src="./images/Logo.png" height="50px" alt=""></a>
+          </div>
+          <div class="col-3">
+            <div class="links">
+              <ul class="d-flex justify-content-end">
+                <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                <li>
+                  <a href="#">
+                    <i class="bi bi-handbag"></i>
+                    <span class="cardcounter">0</span>
+                  </a>
+                </li>
+              </ul>
+              </div>
+          </div>
+        </div>
+      </div>
+     </nav>
+     <!-- responsive navber end -->
+     <!-- Offcanvas menu start -->
+
+     <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvusMenu" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <input type="text" placeholder="search">
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body p-0">
+        <ul class="smallmenu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Pages</a></li>
+          <li>
+            <a href="#" role="button" data-bs-toggle="dropdown">Features <span class="dropdownarrow"><i class="fa-solid fa-angle-down"></i></span></a>
+          <ul class="dropdown-menu submenu">
+            <li><a class="dropdown-item" href="#">Feature 1</a></li>
+            <li><a class="dropdown-item" href="#">Feature 2</a></li>
+            <li><a class="dropdown-item" href="#">Feature 3</a></li>
+            <li><a class="dropdown-item" href="#">Feature 4</a></li>
+          </ul>
+          </li>
+          <li><a href="#">Blogs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+
+     <!-- offcanvas menu end -->
+
+</header>
+<!-- Navbar end -->
+
+    <!-- shop part start -->
+    <section id="Shopbanner">
+        <div class="container">
+            <div class="shopheading">
+                <h2>Shop - Grid</h2>
+                <p>Home  /  Shop</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- shop part end -->
+
+    <!-- shop part 2 start -->
+
+    <section id="shopproduct">
+        <div class="container">
+            <div class="row">
+                <div class="producticon col-md-2">
+                    <a href="#"><i class="fa-solid fa-list"></i></a><a href="#"><i class="bi bi-grid-3x3-gap-fill"></i></a>
+                </div>
+                <div class="textbar col-md-3">
+                    <p>Showing 12 of 16 Post</p>
+                    <div class="bar">
+                        <div class="bar1"></div>
+                    </div>
+
+                </div>
+                <div class="dropdown col-md-2 ms-auto">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Default sorting
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Accending</a></li>
+                        <li><a class="dropdown-item" href="#">Decending</a></li>
+                        <li><a class="dropdown-item" href="#">Default sorting</a></li>
+                      </ul>
+                </div>
+            </div>
+
+        <div class="shopproductSlider">
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Hoodie.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">     
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Spaghetti Hoodie
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Neck Cotton.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Crew Neck Cotton
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$150.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/strap dress.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Strap Dress
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Neck Frog.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Pink Neck Frog
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$350.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Blouse sleeve.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Blouse Sleeve
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Neck T-shirt.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Crew Neck T-shirt
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$150.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Blouse Jacket.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Blouse Jacket
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Sweater Bluza.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Sweater Bluza
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$350.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Coat Outerwear.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Coat Outerwear
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Flight Jacket.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Flight jacket
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$150.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Dress,Plus-size.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Shoulder Dress
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$125.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Nightwear.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Nightwear
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$350.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Neck T-shirt.png" alt="">
+                    
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Crew Neck T-shirt
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$150.65</p>
+                </div>
+            </div>
+
+            <div class="product col-lg-2">
+                <div class="productimg">
+                    <img class="d-block w-100" src="./images/Flight Jacket.png" alt="">
+                    <!-- offer start -->
+                    <div class="offer">New</div>
+                    <!-- offer end -->
+                    <!-- product overlay start -->
+                    <div class="overlay2">
+                        <ul>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Cart" href="#"><i class="bi bi-cart-plus"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to favourite" href="#"><i class="bi bi-heart-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Vision" href="#"><i class="bi bi-eye-fill"></i></a></li>
+                          <li><a data-bs-toggle="tooltip" data-bs-placement="left" data-bs-title="Add to Chart" href="#"><i class="bi bi-bar-chart-fill"></i></a></li>
+                        </ul>
+                      </div>
+                    <!-- product overlay end -->
+                </div>
+                <div class="shopproductdetails">  
+                    <h3>Flight jacket
+                        <span class="rating2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <label>(5)</label>
+                        </span>
+                    </h3>
+                    <p>$150.65</p>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="sliderarrow">
+            <div class="left"><i class="bi bi-arrow-left">Pre</i></div>
+            <div class="right"><i class="bi bi-arrow-right">Next</i></div>
+        </div>
+
+        </div>
+
+    </section>
+
+<!-- shop part 2 end -->
+
+<!-- footer start -->
+    <section id="footer">
+        <div class="allfootercnt">
+        <div class="container">
+            <div class="prefooter">
+                <div class="row">
+                  <div class="col-lg-4">
+                    <div class="socialicon">
+                      <div class="row">
+                      <div class="icon"><i class="fa-brands fa-facebook-f"></i></div>
+                      <div class="icon"><i class="fa-brands fa-twitter"></i></div>
+                      <div class="icon"><i class="fa-brands fa-instagram"></i></div>
+                      <div class="icon"><i class="fa-brands fa-pinterest-p"></i></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="lastlogo">
+                    <img src="./images/aytor2.png" alt="">
+                    <h2>Subscribe to Our Newsletter!</h2>
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships.
+                         Objectively engineer multimedia.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-4">
+                    <div class="paymenticon">
+                    <img src="./images/economic card.png" alt="">
+                    </div>
+                  </div>
+                </div>
+  
+              </div>
+
+            <div class="Mainfooter">
+              <div class="row">
+                <div class="col-lg-2">
+                  <h5>My Account</h5>
+                  <div class="accountlist">
+                    <li>
+                      <a href="#"><svg class="color" width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg>My Account</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg>View Cart</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg>Wishlist</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg>Compare</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg>New Products</a>
+                  </li>
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <h5>Support</h5>
+                  <div class="supportlist">
+                    <li>
+                      <a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Help</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Contact Us</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Feedback</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Customer Service</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Store Locations</a>
+                  </li>
+                  </div>
+                </div>
+
+                <div class="col-lg-2">
+                  <h5>Shop</h5>
+                  <div class="shoplist">
+                    <li>
+                      <a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Men’s Shopping</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Women’s Shopping</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Kids’ Shopping</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> Discounts</a>
+                  </li>
+                    <li><a href="#"><svg width="6" height="9" viewBox="0 0 6 9" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 7.9425L3.7085 4.5L0 1.0575L1.1417 0L6 4.5L1.1417 9L0 7.9425Z" fill="#444" />
+                    </svg> New Arrivels</a>
+                  </li>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <h5>Contact Us</h5>
+                  <div class="contactlist">
+                    <div class="location">
+                      <span><i class="fa-solid fa-location-dot"></i></span><a href="#">830 Broad way, New York, NY 10003,
+                        United States</a>
+                    </div>
+                    <div class="phone"><span><i class="fa-solid fa-phone"></i></span><a href="tel:+18008660286;">+18008660286</a></div>
+                    <div class="Email"><span><i class="fa-solid fa-envelope"></i></span><a href="mailto:aetor.info@gmail.com info@aetor.com">aetor.info@gmail.com<br>
+                      info@aetor.com
+                    </a></div>
+
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <h5>News Letter</h5>
+                  <div class="newsletterlist">
+                    <p>Authoritatively morph 24/7 potentialities with error-free partnerships.</p>
+                    <div class="input">
+                      <input type="email" class="input-field" placeholder="Enter your email...."><button class="sidebutton">
+                        <a href="#">Subscribe</a>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    <!-- footer end -->
+
+    <!-- copyright part -->
+
+    <div class="copyright">
+        <p>© 2022 All Rights Reserved <span>Aytor</span> By <span>Angfuzsoft.</span></p>
+      </div>
+
+
+      <!-- footer part end -->
+
+    <!-- **jquery start** -->
+    <script src="./js/jquery-3.7.1.min.js"></script>
+    <!-- **jqueru end** -->
+
+    <!-- **Slick slider js start -->
+    <script src="./js/slick.min.js"></script>
+    <!-- **Slick slider js start -->
+
+    <!-- **bootstrap js start** -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!-- **bootstarp js end** -->
+
+    <!-- **main js start** -->
+    <script src="./js/script.js"></script>
+    <!-- **main js end** -->
+
+
+</body>
+</html>    
